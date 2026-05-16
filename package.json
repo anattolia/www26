@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "pages:build": "npx opennextjs-cloudflare build",
+    "preview": "npx opennextjs-cloudflare build && npx wrangler pages dev",
+    "deploy": "npx opennextjs-cloudflare build && npx wrangler pages deploy"
   },
   "dependencies": {
     "next": "16.2.6",
