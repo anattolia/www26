@@ -1,0 +1,30 @@
+.nombre {
+  text-align: center;
+  margin: 3em 0 0 0;
+  font-size: 1.2em;
+  color: var(--rojofuente);
+}
+
+.intro {
+  width: 70vw;
+  margin: 2em auto;
+  font-family: system-ui;
+  font-style: normal;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.columna {
+  margin-bottom: 1em;
+  flex-basis: 46%;
+  padding: 2em 3em;
+  border: 1px solid var(--rojofuente);
+}
+
+.link {
+  color: var(--rojofuente);
+  margin-top: 1em;
+  font-weight: 400;
+}
