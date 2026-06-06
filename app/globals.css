@@ -11,7 +11,7 @@
 :root {
   --background: #5c76c6;
   --foreground: #171717;
-  --rojofuente: rgb(255, 57, 57);
+  --rojofuente: #eb4c43;
 
   --minCelular: 576px;
   --minTablet: 768px;
@@ -35,7 +35,6 @@
 }
 
 body {
-  background-image: url("/background.png");
   /*background: var(--background);*/
   color: var(--foreground);
   font-family: "Work Sans", sans-serif;
@@ -43,17 +42,17 @@ body {
 }
 
 .contenedorInicio {
-  width: 70vw;
+  width: 100vw;
 }
 
 .enlaces {
-  padding: 4em;
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  width: 70vw;
-  flex-wrap: wrap;
+  width: 100vw;
+  padding: 40px 20vw 10px;
+  display: flex;
+
   /* margin-left: 15vw;*/
 
   .elemento {
@@ -67,7 +66,7 @@ body {
   color: var(--rojofuente);
   text-align: center;
   width: 98vw;
-  margin: 3em 0 2em 0;
+  margin: 10vh 0 2em;
 
   .nombre {
     font-size: 1.2em;
@@ -122,7 +121,15 @@ body {
 }
 
 @media screen and (min-width: --minTablet) {
+  .enlaces {
+    padding: 4em;
+    width: 70vw;
+  }
   .info {
     margin: 0 0 2em 0;
+  }
+  .contenedorInicio {
+    width: 80vw;
+    margin: 0 auto;
   }
 }

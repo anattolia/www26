@@ -5,9 +5,11 @@
   flex-direction: row;
   color: rgb(255, 57, 57);
   font-family: "Work Sans", sans-serif;
-  width: 98vw;
-  /* margin-left: 15vw;*/
+  align-items: flex-start;
+  align-content: center;
   justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 10vw;
 }
 
 .nombre {

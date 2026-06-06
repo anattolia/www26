@@ -1,11 +1,12 @@
 .proyectoCuerpo {
-  width: 29vw;
-  position: fixed;
-  top: 5em;
-  right: 9vw;
-  color: var(--rojofuente);
+  width: 84vw;
+  color: white;
   text-align: center;
-  line-height: 1em;
+  position: fixed;
+  top: 35vh;
+  right: 8vw;
+  padding: 2em;
+  background-color: #eb4c43eb;
 }
 
 .titulo {
@@ -28,6 +29,12 @@
     top: 5em;
     right: 7vw;
     line-height: 1.4em;
+    top: 5em;
+    right: 9vw;
+    color: var(--rojofuente);
+    background-color: transparent;
+    text-align: center;
+    line-height: 1em;
   }
 
   .descripcion {
