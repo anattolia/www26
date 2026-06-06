@@ -50,7 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  padding: 40px 20vw 10px;
+  padding: 60px 20vw 10px;
   display: flex;
 
   /* margin-left: 15vw;*/
@@ -120,16 +120,19 @@ body {
   }
 }
 
-@media screen and (min-width: --minTablet) {
+@media screen and (min-width: 768px) {
   .enlaces {
     padding: 4em;
     width: 70vw;
   }
   .info {
-    margin: 0 0 2em 0;
+    border-top: 1px solid var(--rojofuente);
+    width: 80vw;
+    padding-top: 10vh;
+    margin: 10vh 10vw 2em;
   }
   .contenedorInicio {
-    width: 80vw;
+    width: 99vw;
     margin: 0 auto;
   }
 }
