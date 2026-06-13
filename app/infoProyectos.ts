@@ -7,9 +7,20 @@ export const infoProyectos: {
   descripcion?: string;
   lleno: boolean;
 }[] = [
-  { id: 0, lleno: false },
+  { id: 0, 
+    lleno: false,},
   {
     id: 1,
+    titulo: "Lugares resonantes",
+    año: "2026",
+    enlace: "https://repository.javeriana.edu.co/items/79f267a7-6d70-4112-be10-4c434cb63732",
+    imagen: "",
+    descripcion:
+      "'Lugares resonantes: el espacio en la escucha, la escucha del espacio'. Tesis de maestría en Filosofía, Universidad Javeriana, Bogotá.",
+    lleno: true,
+  },
+  {
+    id: 2,
     titulo: "Welcome to my homepage",
     año: "2025",
     enlace: "https://anattolia.github.io/www/welcomeToMyHomepage",
@@ -18,7 +29,6 @@ export const infoProyectos: {
       "Residencia web en el Museum of Human Achievement de Austin, TX (USA).  Mapa efímero y sentimental de pedacitos de Internet. Colección de mis sitios preferidos, guía de navegación nacida de la nostalgia por la web de los 2000, los foros, blogs, anillos y otras formas maravillosas de compartir lo que nos emocionaba.",
     lleno: true,
   },
-  { id: 2, lleno: false },
 
   {
     id: 3,
@@ -32,6 +42,10 @@ export const infoProyectos: {
   },
   {
     id: 4,
+    lleno: false,
+  },
+  {
+    id: 5,
     titulo: "Pronóstico del clima",
     año: "2021",
     enlace: "https://enflujo.github.io/programacion-creativa/anattolia/clima/",
@@ -40,10 +54,13 @@ export const infoProyectos: {
       "Ejercicio curatorial o pronóstico del clima: curaduría de imágenes de fotógrafos colombianos y fragmentos de poemas latinoamericanos elegidos por 'el sistema' o el espíritu robot, a partir de datos recolectados sobre el clima del lugar desde el que nos visita.",
     lleno: true,
   },
-  { id: 5, lleno: false },
 
   {
     id: 6,
+    lleno: false,
+  },
+  {
+    id: 7,
     titulo: "Juego de la vida",
     año: "2022",
     enlace: "https://anattolia.github.io/re_le/",
@@ -52,7 +69,6 @@ export const infoProyectos: {
       "El aprendizaje por refuerzo o aprendizaje reforzado es un área del aprendizaje automático inspirada en la psicología conductista, cuya ocupación es determinar qué acciones debe escoger un agente en un entorno dado con el fin de maximizar alguna noción de 'recompensa'. Este juego, desarrollado junto a Julián Brangold, es un modelo en relación a esta dinámica.",
     lleno: true,
   },
-  { id: 7, lleno: false },
   { id: 8, lleno: false },
   {
     id: 9,
